@@ -30,7 +30,7 @@ mulla on kiinnostus 3D muotoilusta*
 
 > [!NOTE]
 > ![Some random meme and pic isn't working]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fengage.digital.conncoll.edu%2Fliteracies%2Fmemes-what-they-are-how-to-use-them-responsibly%2F&psig=AOvVaw3Qp4SsV_t_mXnlnDtrN022&ust=1757547467299000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCIjBqtvszI8DFQAAAAAdAAAAABAE](https://www.google.com/url?sa=i&url=https%3A%2F%2Fimageresizer.com%2Fes%2Fgenerador-de-memes%2Feditar%2Fcute-cat&psig=AOvVaw3Qp4SsV_t_mXnlnDtrN022&ust=1757547467299000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCIjBqtvszI8DFQAAAAAdAAAAABAh))
-@MiraAvone 
+@MiraAvorne 
 
 Test picture by draggin[^1]
 [^1]: nothing important here
