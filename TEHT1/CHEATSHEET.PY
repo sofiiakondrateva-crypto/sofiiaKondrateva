@@ -84,25 +84,15 @@ print(text.replace("World", "Python")) # Output: "Hello,Python!"
 print("Welcome to the program!")
 x = input("Enter the hour (0–23): ")
 hour = int(x)
-    if hour < 7:
-print("Zzz...")
-    elif hour <= 8:
-print("Time to go to class.")
-    elif hour <= 12:
-print("Morning classes are over, but you can still study in the afternoon.")
-    else:
-print("Maybe it's better to take a day off... Zzz...")
-print("Thanks for visiting!")
-
-if условие1:
-    # выполняется, если условие1 == True
-elif условие2:
-    # выполняется, если условие1 == False и условие2 == True
-elif условие3:
-    # проверяется дальше
-    ...
+if hour < 7:
+        print("Zzz...")
+elif hour <= 8:
+        print("Time to go to class.")
+elif hour <= 12:
+        print("Morning classes are over, but you can still study in the afternoon.")
 else:
-    # выполняется, если все условия выше == False
+        print("Maybe it's better to take a day off... Zzz...")
+print("Thanks for visiting!")
 
 x = 7
 print(x > 5 and x < 10)  # True (оба условия выполняются)
@@ -122,18 +112,19 @@ num1 = int(input("Enter number 1: "))
 num2 = int(input("Enter number 2: "))
 num3 = int(input("Enter number 3: "))
 if num1 == num2:
-print("Numbers 1 and 2 are the same.")
-if (num1 == num2) and (num2 == num3):
-print("All numbers are the same.")
+    print("Numbers 1 and 2 are the same.")
+    if (num1 == num2) and (num2 == num3):
+        print("All numbers are the same.")
 # Find the largest number
-if num1 < num2:
-if num2 < num3:
-print("Number 3 is the largest.")
-else:
-print("Number 2 is the largest.")
-    else:if num1 < num3:
-print("Number 3 is the largest.")
+    if num1 < num2:
+        if num2 < num3:
+         print("Number 3 is the largest.")
     else:
-print("Number 1 is the largest.")
+        print("Number 2 is the largest.")
+else:
+    if num1 < num3:
+        print("Number 3 is the largest.")
+    else:
+        print("Number 1 is the largest.")
 
 #git pull --rebase origin main   git push origin main
