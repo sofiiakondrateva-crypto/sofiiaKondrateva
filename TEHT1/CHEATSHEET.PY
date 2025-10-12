@@ -127,4 +127,60 @@ else:
     else:
         print("Number 1 is the largest.")
 
+
+
+correct_number = 23
+while True:
+ guess = int(input("Enter an integer: "))
+ if guess == correct_number:
+        print("You guessed correctly!")
+        print("Game ends here")
+        break
+ elif guess < correct_number:
+        print("The number is higher than your guess")
+ else:
+        print("The number is lower than your guess")
+print("This prints at the end, after the while loop.")
+
+
+for i in range(1, 5):
+        print(i)
+print("Loop has ended.") #range(1, 5) generates numbers 1 to 4
+
+for i in range(1, 11):
+        if i == 7:
+                print("Lucky number", i, "found!")
+                break
+        print("Checking number", i)
+print("Done!")
+
+
+while True:
+        text = input("Enter text: ")
+        if text == "stop":
+                break
+        if len(text) < 6:
+                continue
+print("Input is longer than 5 characters")
+
+list(range(10)) # [0, 1, 2, ..., 9]
+list(range(5, 10)) # [5, 6, 7, 8, 9]
+list(range(0, 10, 3)) # [0, 3, 6, 9] range(start, stop, step)
+list(range(-10, -100, -30)) # [-10, -40, -70]
+
+for n in range(2, 10):
+        for x in range(2, n):
+                if n % x == 0:
+                        print(n, "equals", x, "*", int(n/x))
+                        break
+        else:
+                print(n, "is a prime number")
+
+
+firstloop = []
+" ".join(firstloop)  # пробел между числами → '3 4 5'
+"".join(firstloop)   # без пробела → '345'
+"-".join(firstloop)  # через дефис → '3-4-5'
+loop = [str(feed)]  # начинаем список сразу с исходного числа
+
 #git pull --rebase origin main   git push origin main
