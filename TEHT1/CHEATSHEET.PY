@@ -183,4 +183,20 @@ firstloop = []
 "-".join(firstloop)  # через дефис → '3-4-5'
 loop = [str(feed)]  # начинаем список сразу с исходного числа
 
+
+
+def say_hello():
+ print("Hello there!")
+ print("This message comes from inside the function.")
+ return None
+say_hello()
+print("Function executed.")#def starts the function definition. say_hello() is the function name. return None ends the function (optional if nothing is returned). The function is called with say_hello().
+
+
+
+
+
+
+
+
 #git pull --rebase origin main   git push origin main
