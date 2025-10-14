@@ -192,11 +192,14 @@ def say_hello():
 say_hello()
 print("Function executed.")#def starts the function definition. say_hello() is the function name. return None ends the function (optional if nothing is returned). The function is called with say_hello().
 
+words = []  # ПУСТОЙ СПИСОК ВОРДС
+words.append(feed) #ДОБАВЬ ФИД В СПИСОК ВОРДС
 
+words.join()# это метод строк в Python, который объединяет список строк в одну строку, используя строку, у которой вызывается метод, как разделитель.
 
+words = ["apple", "banana", "cherry"]
+print(len(words))  # 3 — в списке 3 элемента
 
-
-
-
+list = result.split(DELIMITER)#превращает строку "apple,banana,cherry" в список ["apple", "banana", "cherry"]
 
 #git pull --rebase origin main   git push origin main
