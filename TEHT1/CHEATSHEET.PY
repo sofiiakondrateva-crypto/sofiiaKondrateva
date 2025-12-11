@@ -202,4 +202,42 @@ print(len(words))  # 3 — в списке 3 элемента
 
 list = result.split(DELIMITER)#превращает строку "apple,banana,cherry" в список ["apple", "banana", "cherry"]
 
+
+def menu():
+ print("Choose an action:")
+ print("1) Save to file")
+ print("2) Read from file")
+ print("0) Exit")
+ return int(input("Your choice: "))
+def save(filename):
+ file = open(filename, 'w', encoding="utf-8")
+ file.write("John;180\n")
+ file.write("Alice;165\n")
+ file.close()
+def read(filename):
+ file = open(filename, 'r', encoding="utf-8")
+ while True:
+ line = file.readline()
+ if len(line) == 0:
+ break
+ line = line.strip()
+ parts = line.split(';')
+ print(f"Name: {parts[0]}, Height: {parts[1]}")
+ file.close()
+def main():
+ filename = "people.txt"
+ while True:
+ choice = menu()
+ if choice == 1:
+ save(filename)
+ elif choice == 2:
+ read(filename)
+ elif choice == 0:
+ print("Goodbye!")
+ break
+ else:
+ print("Invalid choice. Try again.")
+main()
+
+
 #git pull --rebase origin main   git push origin main
